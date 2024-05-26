@@ -3,14 +3,6 @@ import Link from "next/link";
 import createClient from "edgedb";
 import e from "@/dbschema/edgeql-js";
 
-// type Item = {
-//   id: string;
-//   name: string;
-//   imageId: string;
-//   price: number;
-//   description: string;
-// };
-
 const client = createClient();
 
 export default async function Home() {
