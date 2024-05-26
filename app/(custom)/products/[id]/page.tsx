@@ -1,3 +1,5 @@
+"use server";
+
 import createClient from "edgedb";
 import e from "@/dbschema/edgeql-js";
 import Image from "next/image";
